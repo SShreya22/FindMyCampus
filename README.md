@@ -96,9 +96,4 @@ src/
     └── buildingData.js
 ```
 
----
-
-## 📱 Mobile-First Design
-
-The app is designed for a **phone-like UI** (max-width 430px) centered on desktop, with a soft sage green & pastel blue color palette.
 
