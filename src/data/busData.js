@@ -1,0 +1,106 @@
+export const busData = [
+  {
+    id: 1,
+    stop: "Main Gate",
+    icon: "gate",
+    weekday: [
+      { route: "Bus A", time: "7:45 AM", dest: "City Center" },
+      { route: "Bus B", time: "8:00 AM", dest: "Railway Station" },
+      { route: "Bus C", time: "8:30 AM", dest: "Tech Park" },
+      { route: "Bus A", time: "9:00 AM", dest: "City Center" },
+      { route: "Bus D", time: "9:30 AM", dest: "Airport Road" },
+      { route: "Bus B", time: "10:00 AM", dest: "Railway Station" },
+      { route: "Bus E", time: "12:00 PM", dest: "Old Town" },
+      { route: "Bus A", time: "2:00 PM", dest: "City Center" },
+      { route: "Bus C", time: "4:30 PM", dest: "Tech Park" },
+      { route: "Bus B", time: "6:00 PM", dest: "Railway Station" },
+    ],
+    weekend: [
+      { route: "Bus A", time: "9:00 AM", dest: "City Center" },
+      { route: "Bus B", time: "10:00 AM", dest: "Railway Station" },
+      { route: "Bus A", time: "2:00 PM", dest: "City Center" },
+      { route: "Bus B", time: "5:00 PM", dest: "Railway Station" },
+    ],
+  },
+  {
+    id: 2,
+    stop: "Academic Block",
+    icon: "academic",
+    weekday: [
+      { route: "Bus A", time: "7:55 AM", dest: "City Center" },
+      { route: "Bus B", time: "8:10 AM", dest: "Railway Station" },
+      { route: "Bus C", time: "8:40 AM", dest: "Tech Park" },
+      { route: "Bus A", time: "9:10 AM", dest: "City Center" },
+      { route: "Bus E", time: "12:10 PM", dest: "Old Town" },
+      { route: "Bus C", time: "4:40 PM", dest: "Tech Park" },
+      { route: "Bus B", time: "6:10 PM", dest: "Railway Station" },
+    ],
+    weekend: [
+      { route: "Bus A", time: "9:10 AM", dest: "City Center" },
+      { route: "Bus B", time: "10:10 AM", dest: "Railway Station" },
+      { route: "Bus A", time: "2:10 PM", dest: "City Center" },
+    ],
+  },
+  {
+    id: 3,
+    stop: "Library",
+    icon: "library",
+    weekday: [
+      { route: "Bus C", time: "8:50 AM", dest: "Tech Park" },
+      { route: "Bus D", time: "9:45 AM", dest: "Airport Road" },
+      { route: "Bus E", time: "12:20 PM", dest: "Old Town" },
+      { route: "Bus C", time: "4:50 PM", dest: "Tech Park" },
+    ],
+    weekend: [
+      { route: "Bus C", time: "10:30 AM", dest: "Tech Park" },
+      { route: "Bus C", time: "3:00 PM", dest: "Tech Park" },
+    ],
+  },
+  {
+    id: 4,
+    stop: "Hostel Block",
+    icon: "hostel",
+    weekday: [
+      { route: "Bus A", time: "8:05 AM", dest: "City Center" },
+      { route: "Bus B", time: "8:20 AM", dest: "Railway Station" },
+      { route: "Bus F", time: "7:30 AM", dest: "Market Area" },
+      { route: "Bus F", time: "7:30 PM", dest: "Market Area" },
+      { route: "Bus A", time: "9:20 AM", dest: "City Center" },
+      { route: "Bus B", time: "6:20 PM", dest: "Railway Station" },
+    ],
+    weekend: [
+      { route: "Bus A", time: "9:20 AM", dest: "City Center" },
+      { route: "Bus F", time: "10:00 AM", dest: "Market Area" },
+      { route: "Bus A", time: "6:00 PM", dest: "City Center" },
+    ],
+  },
+  {
+    id: 5,
+    stop: "Sports Complex",
+    icon: "sports",
+    weekday: [
+      { route: "Bus D", time: "9:50 AM", dest: "Airport Road" },
+      { route: "Bus E", time: "12:30 PM", dest: "Old Town" },
+      { route: "Bus D", time: "5:00 PM", dest: "Airport Road" },
+    ],
+    weekend: [
+      { route: "Bus D", time: "11:00 AM", dest: "Airport Road" },
+      { route: "Bus D", time: "4:00 PM", dest: "Airport Road" },
+    ],
+  },
+  {
+    id: 6,
+    stop: "Admin Office",
+    icon: "admin",
+    weekday: [
+      { route: "Bus A", time: "7:50 AM", dest: "City Center" },
+      { route: "Bus B", time: "8:05 AM", dest: "Railway Station" },
+      { route: "Bus A", time: "9:05 AM", dest: "City Center" },
+      { route: "Bus B", time: "6:05 PM", dest: "Railway Station" },
+    ],
+    weekend: [
+      { route: "Bus A", time: "9:05 AM", dest: "City Center" },
+      { route: "Bus B", time: "10:05 AM", dest: "Railway Station" },
+    ],
+  },
+];
